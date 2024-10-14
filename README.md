@@ -200,7 +200,7 @@ def inventory_gui():
     product_tree.heading("Price", text="Price")
     product_tree.heading("Quantity", text="Quantity")
     product_tree.heading("Min Stock", text="Min Stock")
-    product_tree.pack(pady=(1,2), fill=tk.BOTH, expand=True)  # Increase space below the product list
+    product_tree.pack(pady=(1,3), fill=tk.BOTH, expand=True)  # Increase space below the product list
 
     update_product_list()
 
